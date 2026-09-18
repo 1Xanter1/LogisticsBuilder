@@ -1,5 +1,5 @@
 package factory;
-
+// Concrete Product
 public class Truck implements Transport {
     @Override
     public void deliver() {
