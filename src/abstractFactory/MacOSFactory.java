@@ -1,5 +1,5 @@
 package abstractFactory;
-
+// Concrete factory
 public class MacOSFactory implements GUIFactory{
     @Override
     public Button createButton() {

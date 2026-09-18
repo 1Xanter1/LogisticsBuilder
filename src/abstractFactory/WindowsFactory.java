@@ -1,4 +1,5 @@
 package abstractFactory;
+// Concrete factory
 
 public class WindowsFactory implements GUIFactory{
     @Override

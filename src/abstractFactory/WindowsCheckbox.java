@@ -1,5 +1,5 @@
 package abstractFactory;
-
+// Concrete Product
 public class WindowsCheckbox implements Checkbox {
     @Override
     public void render() {

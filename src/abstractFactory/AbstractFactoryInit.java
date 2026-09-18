@@ -1,7 +1,9 @@
 package abstractFactory;
-
+// Client
 public class AbstractFactoryInit {
     public static void main(String[] args) {
+        // Showcases of both concrete factories
+
         GUIFactory factory = new WindowsFactory();
 
         GUIFactory factory2 = new MacOSFactory();
