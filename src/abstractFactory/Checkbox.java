@@ -1,5 +1,4 @@
 package abstractFactory;
 
-public abstract class Checkbox {
-
+public interface Checkbox {
 }

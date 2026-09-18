@@ -1,5 +1,4 @@
 package abstractFactory;
 
-public abstract class Button {
-
+public interface Button {
 }
