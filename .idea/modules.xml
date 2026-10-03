@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/LogisticsBuilder.iml" filepath="$PROJECT_DIR$/LogisticsBuilder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ShapeRenderer.iml" filepath="$PROJECT_DIR$/ShapeRenderer.iml" />
     </modules>
   </component>
 </project>
