@@ -3,7 +3,7 @@ package facade;
 public class Lights {
     private int brightness;
 
-    private void dim(int lvl) {
+    public void dim(int lvl) {
         if(lvl < 0 || lvl > 100){
             throw new IllegalArgumentException("Brightness value must be between 0 and 100");
         }

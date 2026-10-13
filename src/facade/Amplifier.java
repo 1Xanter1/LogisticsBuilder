@@ -17,7 +17,7 @@ public class Amplifier {
         this.dvdPlayer = dvdPlayer;
         System.out.println("DvdPlayer is connected to Amplifier");
     }
-    public void setSurroundVolume(int volume){
+    public void setSurroundVolume(){
         requireOn();
         System.out.println("Surround volume is on");
     }
