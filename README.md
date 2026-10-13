@@ -1,20 +1,28 @@
-Factory Method & Abstract Factory
+Bridge Pattern - Shape–Renderer
 
-This project demonstrates two creational design patterns in Java:
+This project demonstrates the Bridge Design Pattern using a Shape–Renderer example
 
-Part A — Factory Method
+Description
 
-A logistics example where:
+The project separates shapes from their rendering implementations using composition
 
-Transport is the Product interface.
-Truck and Ship are Concrete Products.
-Logistics is the Creator.
-RoadLogistics and SeaLogistics are Concrete Creators.
-Part B — Abstract Factory
+Abstraction hierarchy
+Shape
+Circle
+Square
+Implementor hierarchy
+Renderer
+VectorRenderer
+RasterRenderer
 
-A GUI example with two platforms:
+A shape can use different renderers without changing the shape classes
 
-Button and Checkbox are Abstract Products.
-Windows and Mac have their own concrete components.
-GUIFactory is the Abstract Factory.
-WindowsFactory and MacFactory are Concrete Factories.
+For example:
+
+Shape circle = new Circle(new VectorRenderer(), 5);
+Shape rasterCircle = new Circle(new RasterRenderer(), 5);
+Pattern Structure
+
+The Shape abstraction contains a reference to the Renderer interface. This creates the bridge between the two independent hierarchies
+
+The main benefit is that new shapes and renderers can be added independently
