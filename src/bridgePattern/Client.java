@@ -15,8 +15,8 @@ public class Client {
 
         System.out.println();
 
-        Shape vectorCircle = new Circle(rasterRenderer,6);
-        Shape vectorSquare = new Square(rasterRenderer,5);
+        Shape vectorCircle = new Circle(vectorRenderer,6);
+        Shape vectorSquare = new Square(vectorRenderer,5);
 
         vectorCircle.draw();
         vectorSquare.draw();
