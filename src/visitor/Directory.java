@@ -23,7 +23,7 @@ public class Directory implements FileSystemElement {
         elements.add(element);
     }
     @Override
-    public void  accept(Visitor visitor) {
+    public void accept(Visitor visitor) {
         visitor.visitDirectory(this);
     }
 }
