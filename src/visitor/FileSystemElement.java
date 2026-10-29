@@ -1,5 +1,5 @@
 package visitor;
 
-public interface FIleSystemElement {
+public interface FileSystemElement {
     void accept(Visitor visitor);
 }
